@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browse Services – Masinga Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow-md py-4 px-6 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-blue-600">Masinga Services</h1>
+    <a href="index.html" class="text-blue-600 hover:underline"><i class="fas fa-arrow-left mr-1"></i>Back Home</a>
+  </header>
+
+  <section class="py-6 px-4">
+    <h2 class="text-2xl font-semibold mb-4 text-center">Browse Services</h2>
+
+    <!-- Filters -->
+    <div class="flex flex-wrap justify-center gap-4 mb-6">
+      <select class="px-4 py-2 rounded border shadow-sm">
+        <option>Category</option>
+        <option>Boda Riders</option>
+        <option>Plumbers</option>
+        <option>Tailors</option>
+        <option>Electricians</option>
+        <option>Mechanics</option>
+        <option>Painters</option>
+        <option>Caretakers</option>
+        <option>IT Services</option>
+        <option>Construction Workers</option>
+        <option>Carpenters</option>
+        <option>Hairdressers</option>
+        <option>House Cleaners</option>
+        <option>Gardening Services</option>
+        <option>Security Guards</option>
+        <option>Photographers</option>
+        <option>Event Planners</option>
+        <option>Delivery Services</option>
+        <option>Movers</option>
+        <option>Locksmiths</option>
+        <option>Hotel & Accommodation</option>
+        <option>Egg Selling</option>
+      </select>
+      <select class="px-4 py-2 rounded border shadow-sm">
+        <option>Rating</option>
+        <option>5 Stars</option>
+        <option>4+ Stars</option>
+      </select>
+      <select class="px-4 py-2 rounded border shadow-sm">
+        <option>Price Range</option>
+        <option>KES 100-500</option>
+        <option>KES 500-1000</option>
+      </select>
+    </div>
+
+    <!-- Service Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+      <!-- Boda Rider -->
+      <div class="bg-white rounded-lg shadow hover:shadow-lg p-4">
+        <div class="flex items-center gap-3 mb-3">
+          <i class="fas fa-motorcycle text-blue-600 text-xl"></i>
+          <h3 class="font-semibold text-lg">James Mwangi</h3>
+        </div>
+        <p class="text-sm text-gray-600">Boda Rider - Kivandini</p>
+        <div class="flex items-center gap-2 my-2 text-yellow-500">
+          <i class="fas fa-star"></i><span>4.8</span>
+        </div>
+        <a href="profile.html" class="text-sm text-blue-600 hover:underline">View Profile</a>
+        <div class="mt-3 flex gap-3">
+          <a href="tel:+254712345678" class="text-green-600"><i class="fas fa-phone"></i></a>
+          <a href="https://wa.me/254712345678" class="text-green-500"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- Hotel & Accommodation -->
+      <div class="bg-white rounded-lg shadow hover:shadow-lg p-4">
+        <div class="flex items-center gap-3 mb-3">
+          <i class="fas fa-hotel text-purple-600 text-xl"></i>
+          <h3 class="font-semibold text-lg">Rose's Guesthouse</h3>
+        </div>
+        <p class="text-sm text-gray-600">Hotel & Accommodation - Masinga Market</p>
+        <div class="flex items-center gap-2 my-2 text-yellow-500">
+          <i class="fas fa-star"></i><span>4.5</span>
+        </div>
+        <a href="profile.html" class="text-sm text-blue-600 hover:underline">View Profile</a>
+        <div class="mt-3 flex gap-3">
+          <a href="tel:+254700987654" class="text-green-600"><i class="fas fa-phone"></i></a>
+          <a href="https://wa.me/254700987654" class="text-green-500"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- Egg Seller -->
+      <div class="bg-white rounded-lg shadow hover:shadow-lg p-4">
+        <div class="flex items-center gap-3 mb-3">
+          <i class="fas fa-egg text-yellow-600 text-xl"></i>
+          <h3 class="font-semibold text-lg">Mama Njeri</h3>
+        </div>
+        <p class="text-sm text-gray-600">Egg Seller - Ndithini</p>
+        <div class="flex items-center gap-2 my-2 text-yellow-500">
+          <i class="fas fa-star"></i><span>4.9</span>
+        </div>
+        <a href="profile.html" class="text-sm text-blue-600 hover:underline">View Profile</a>
+        <div class="mt-3 flex gap-3">
+          <a href="tel:+254710112233" class="text-green-600"><i class="fas fa-phone"></i></a>
+          <a href="https://wa.me/254710112233" class="text-green-500"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- Add more cards as needed below... -->
+
+    </div>
+  </section>
+</body>
+</html>

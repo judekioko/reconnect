@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register – Masinga Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body class="bg-blue-50">
+  <section class="min-h-screen flex items-center justify-center py-8">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
+      <h2 class="text-2xl font-bold text-center text-blue-600 mb-6"><i class="fas fa-user-plus"></i> Register as a Service Provider</h2>
+      <form class="space-y-6">
+        <div>
+          <label for="fullName" class="block text-sm font-medium text-gray-700">Full Name</label>
+          <input type="text" id="fullName" placeholder="Full Name" class="w-full px-4 py-2 border rounded focus:ring-2 focus:ring-blue-500"/>
+        </div>
+        <div>
+          <label for="idNumber" class="block text-sm font-medium text-gray-700">ID/Passport Number</label>
+          <input type="text" id="idNumber" placeholder="ID/Passport Number" class="w-full px-4 py-2 border rounded focus:ring-2 focus:ring-blue-500"/>
+        </div>
+        <div>
+          <label for="phoneNumber" class="block text-sm font-medium text-gray-700">Phone Number</label>
+          <input type="tel" id="phoneNumber" placeholder="Phone Number" class="w-full px-4 py-2 border rounded focus:ring-2 focus:ring-blue-500"/>
+        </div>
+        <div>
+          <label for="skillCategory" class="block text-sm font-medium text-gray-700">Select Skill Category</label>
+          <select id="skillCategory" class="w-full px-4 py-2 border rounded focus:ring-2 focus:ring-blue-500">
+            <option>Boda Riders</option>
+            <option>Plumbers</option>
+            <option>Tailors</option>
+            <option>Electricians</option>
+            <option>Mechanics</option>
+            <option>Painters</option>
+            <option>Caretakers</option>
+            <option>IT Services</option>
+            <option>Construction Workers</option>
+            <option>Carpenters</option>
+            <option>Hairdressers</option>
+            <option>House Cleaners</option>
+            <option>Gardening Services</option>
+            <option>Security Guards</option>
+            <option>Photographers</option>
+            <option>Event Planners</option>
+            <option>Delivery Services</option>
+            <option>Movers</option>
+            <option>Locksmiths</option>
+          </select>
+        </div>
+        <div>
+          <label for="bio" class="block text-sm font-medium text-gray-700">Short Bio</label>
+          <textarea id="bio" placeholder="Tell us about yourself" class="w-full px-4 py-2 border rounded focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        <div>
+          <label for="location" class="block text-sm font-medium text-gray-700">Location</label>
+          <input type="text" id="location" placeholder="Your Location" class="w-full px-4 py-2 border rounded focus:ring-2 focus:ring-blue-500"/>
+        </div>
+        <div>
+          <label for="profileImage" class="block text-sm font-medium text-gray-700">Profile Picture</label>
+          <input type="file" id="profileImage" class="w-full px-4 py-2 border rounded bg-white"/>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"><i class="fas fa-paper-plane"></i> Submit</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
